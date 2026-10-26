@@ -31,6 +31,19 @@ About 100k orders from 2016-2018. All money values are in Brazilian Reais (R$).
 | Hibernating / Lost | 23,852 | 1.53M | 9.9% |
 | Active Low Spenders | 22,835 | 1.44M | 9.4% |
 
+## Retention Analysis
+
+
+![Cohort Retention](dashboard/cohort_retention.png)
+
+
+
+Customers were grouped by the month of their first order, and I tracked what share ordered again in later months (`python/cohort_retention.py`).
+
+- Average retention is only 0.45% after 1 month, 0.24% after 3 months, and 0.27% after 6 months
+- Customers rarely come back, so growth depends on winning new customers every month
+- Even a small lift in repeat purchases would matter, because the few customers who do return spend the most
+
 ## Recommendations
 - Run a win-back campaign for the At Risk / Win-back Priority group, the biggest pool of recoverable revenue
 - Turn one-time buyers into repeat buyers, for example with a discount on the second order
